@@ -3,11 +3,13 @@ import { useNavigate } from 'react-router';
 import { formatMoney } from "../../Utils/Money"
 
 export function PaymentSummery({ paymentSummery, loadCart}) {
+
+    const backendMainLink = 'https://ecommerce-backend-production-c5c1.up.railway.app';
     
     const navigate= useNavigate();
     
     const createOrder = async () => {
-        await axios.post('/api/orders');
+        await axios.post(`${backendMainLink}/api/orders`);
         await loadCart();
         navigate('/orders')
     };
