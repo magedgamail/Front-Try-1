@@ -11,10 +11,13 @@ export function TrackingPage({cart}) {
 
     const { orderId, productId } = useParams();
     const[order, setOrder] = useState(null);
+
+    const backendMainLink = 'https://ecommerce-backend-production-c5c1.up.railway.app';
+
     useEffect(() => {
         const fetchTrackingData = async () => {
 
-            const response = await axios.get(`/api/orders/${orderId}?expand=products`)
+            const response = await axios.get(`${backendMainLink}/api/orders/${orderId}?expand=products`)
             setOrder(response.data)
         }
 
