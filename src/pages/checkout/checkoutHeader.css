@@ -34,6 +34,7 @@
 .checkout-header .mobile-logo {
   display: none;
 }
+/* ##### Edited ######## */
 .check-logo-1 {
   width: 180px;
   height: 26px;
@@ -48,11 +49,22 @@
   font-weight: 700;
   display: inline;
 }
+/* ##### Edited ######## */
+@media (max-width: 575px) {
+  .checkout-header .checkout-header-left-section {
+    width: auto;
+  }
 
-/* @media is used to create responsive design (making the
-   website look good on any screen size). This @media
-   means when the screen width is 575px or less, different
-   styles (inside the {...}) will be applied. */
+  .checkout-header .check-logo-1 {
+    display: none;
+  }
+
+  .checkout-header .check-mobile-logo-1 {
+    display: inline-block;
+    height: 26px;
+  }
+}
+
 @media (max-width: 575px) {
   .checkout-header .checkout-header-left-section {
     width: auto;
