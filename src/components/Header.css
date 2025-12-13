@@ -58,6 +58,19 @@
     margin-top: 1px;
   }
 }
+/* ##### Edited ######## */
+.header .logo-1 {
+  width: 180px;
+    height: 26px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+.header .m {
+  font-size: 36px;
+  font-weight: bold;
+}
+/* ##### Edited ######## */
 
 .header .middle-section {
   flex: 1;
