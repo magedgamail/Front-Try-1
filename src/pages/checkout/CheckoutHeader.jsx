@@ -12,16 +12,16 @@ export function CheckoutHeader({cart}) {
     })
     return (
         <>
-                    <div className="checkout-header">
+                    <div className="chekout-header">
                 <div className="header-content">
                     <div className="checkout-header-left-section">
                         <Link to="/">
-                        <div className='chechout-logo-1'><div className='m'>M</div>aged</div>
-                        <div className='chechout-mobile-logo-1'>M</div>
+                        <div className='checkout-logo-1'><div className='m'>M</div>aged</div>
+                        <div className='checkout-mobile-logo-1'>M</div>
 
                             {/* <img className="logo" src={logo} />
                             <img className="mobile-logo" src={ MobileLogo } /> */}
-                            
+
                         </Link>
                     </div>
 
