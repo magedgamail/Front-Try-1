@@ -34,6 +34,20 @@
 .checkout-header .mobile-logo {
   display: none;
 }
+.check-logo-1 {
+  width: 180px;
+  height: 26px;
+  color: #198754;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.1px;
+}
+.check-logo-1 .m {
+  font-size: 26px;
+  font-weight: 700;
+  display: inline;
+}
 
 /* @media is used to create responsive design (making the
    website look good on any screen size). This @media
