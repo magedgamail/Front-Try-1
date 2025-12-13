@@ -49,7 +49,13 @@
   font-weight: 700;
   display: inline;
 }
+
 /* ##### Edited ######## */
+@media (min-width: 576px) {
+  .check-logo-1 {
+    display: none;
+  }
+}
 @media (max-width: 575px) {
   .checkout-header .checkout-header-left-section {
     width: auto;
@@ -60,8 +66,12 @@
   }
 
   .checkout-header .check-mobile-logo-1 {
-    display: inline-block;
     height: 26px;
+    display: block;
+    height: 26px;
+    font-size: 26px;
+    font-weight: bolder;
+    color: white;
   }
 }
 
