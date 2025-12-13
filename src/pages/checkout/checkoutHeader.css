@@ -51,11 +51,7 @@
 }
 
 /* ##### Edited ######## */
-@media (min-width: 576px) {
-  .check-logo-1 {
-    display: none;
-  }
-}
+
 @media (max-width: 575px) {
   .checkout-header .checkout-header-left-section {
     width: auto;
