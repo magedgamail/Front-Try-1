@@ -61,14 +61,17 @@
 /* ##### Edited ######## */
 .header .logo-1 {
   width: 180px;
-    height: 26px;
-    color: white;
-    text-align: center;
-    font-size: 24px;
+  height: 26px;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.1px;
 }
 .header .m {
-  font-size: 36px;
-  font-weight: bold;
+  font-size: 26px;
+  font-weight: 700;
+  display: inline;
 }
 /* ##### Edited ######## */
 
