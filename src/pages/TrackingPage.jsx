@@ -8,11 +8,12 @@ import axios from 'axios';
 import dayjs from 'dayjs';
 
 export function TrackingPage({cart}) {
+    
+    const backendMainLink = 'https://ecommerce-backend-production-c5c1.up.railway.app';
 
     const { orderId, productId } = useParams();
     const[order, setOrder] = useState(null);
 
-    const backendMainLink = 'https://ecommerce-backend-production-c5c1.up.railway.app';
 
     useEffect(() => {
         const fetchTrackingData = async () => {
@@ -49,7 +50,7 @@ export function TrackingPage({cart}) {
         
         <>
             <title>Tracking</title>
-            <link rel="icon" type="image/svg+xml" to="tracking-favicon.png" />
+            <Link rel="icon" type="image/svg+xml" to="tracking-favicon.png" />
             <Header cart={cart} />
             
             <div className="tracking-page">
